@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "appointments",
+  "info": {
+    "singularName": "appointment",
+    "pluralName": "appointments",
+    "displayName": "Appointment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "UserName": {
+      "type": "string",
+      "required": true
+    },
+    "Email": {
+      "type": "email",
+      "required": true
+    },
+    "Date": {
+      "type": "date"
+    },
+    "Time": {
+      "type": "time"
+    },
+    "Note": {
+      "type": "richtext"
+    }
+  }
+}
