@@ -34,7 +34,7 @@ function CategorySearch() {
       </div>
       {categoryList.map((item,index)=>
       <div>
-        <Image src={item.attributes?.icon?.data.attributes?.url}
+        <Image src={item.attributes?.Icon?.data.attributes.url}
         alt='icon'
         width={40}
         height={40}
